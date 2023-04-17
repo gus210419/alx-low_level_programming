@@ -5,8 +5,8 @@
  * Return Always 0 (Success)
  */
 
-int(void);
+int(void)
 {
-	printf("%s/n"__FILE__);
+	printf("%s/n",__FILE__);
 	return (0);
 }
